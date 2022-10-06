@@ -1,4 +1,4 @@
-## O que é YAML
+## O que é `YAML`
 - Uma linguage de serializacao, seu nopme e YAML ain't markup language (YAML nao e uma linguagem de marcacao)
 - usada geralmente para arquivos de configuração, como  Docker, Kubernetes, Ansible
 - é de facil leitura para as pessoas humanas, de fácil entendimento
@@ -57,6 +57,20 @@ Abaixo um exemplo basico de uma estrutura de `YAML` com Ansible:
       - postgresql
       - postgresql-server
     state: present
+```
+
+## `YAML` com Docker Compose
+Abaixo um exemplo de uso com Docker Compose.
+
+```yml
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+  redis:
+    image: "redis:alpine"
 ```
 
 
