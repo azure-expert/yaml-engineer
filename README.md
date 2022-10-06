@@ -1,5 +1,5 @@
 ## O que é YAML
-- Uma linguagem de serializacao, seu nopme e YAML ain't markup language (YAML nao e uma linguagem de marcacao)
+- Uma linguage de serializacao, seu nopme e YAML ain't markup language (YAML nao e uma linguagem de marcacao)
 - usada geralmente para arquivos de configuração, como  Docker, Kubernetes, Ansible
 - é de facil leitura para as pessoas humanas, de fácil entendimento
 - a extensão dos arquivos é `.yml` ou `.yaml`
@@ -28,7 +28,8 @@ funcionario:
      sexo: Feminino
 ```
 
-como seria esse mesmo exemplo em `JSON`:
+## Sintaxe do `JSON`:
+A sintaxe do `JSON` seria mais dificil de interpretar se usarmos como o exemplos acima.
 
 ```json
 {
